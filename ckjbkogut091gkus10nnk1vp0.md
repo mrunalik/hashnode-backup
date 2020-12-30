@@ -118,8 +118,6 @@ The Location of login user is:
 
 Register a user and you will see something like this in the browser.
 
-
-![output 2.PNG](https://cdn.hashnode.com/res/hashnode/image/upload/v1609341375441/wIhiFJaoL.png)
  
 
  
