@@ -100,7 +100,7 @@ use Illuminate\Support\Facades\Auth;
          $user = User::findOrFail(Auth::user()->id);
         $users = User::all();
         $ip = $_SERVER['REMOTE_ADDR'];
-        $data = Location::get('103.92.103.128');
+        $data = Location::get($ip);
         $location = serialize($data);  // serializing to store in database
          $user->update(['location'=>$location]);
         $user_location = unserialize($user->location); // unserialize to display the location
