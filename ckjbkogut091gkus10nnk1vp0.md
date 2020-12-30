@@ -1,4 +1,4 @@
-## Store and display the location of the user in 8 steps in using laravel.
+## Store and display the location of the user in 8 steps using laravel.
 
 In this blog we will see how to store the location of the user when user logs in.
 
