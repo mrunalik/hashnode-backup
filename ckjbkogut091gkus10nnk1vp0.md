@@ -119,6 +119,8 @@ The Location of login user is:
 Register a user and you will see something like this in the browser.
 
 ![output 3.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1609345854097/AqlbCqnRp.jpeg)
+
+**On xampp you will see location as false.** 
  
 
  
