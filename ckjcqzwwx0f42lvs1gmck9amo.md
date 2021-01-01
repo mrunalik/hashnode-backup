@@ -3,7 +3,7 @@
 This time I will tell you guys how to integrate razorpay payment integration in laravel and store the payment details in our payment table only when payment is successful and return a message "Payment Successful".
 We will also see how to return "Payment Failure" message when transaction is failed.
 
-So us let is begin this tutorial.
+So let us begin this tutorial.
 
 **1. Install your laravel project.** *Use Below command to install latest version of laravel project.* **I am using laravel version 8.2.**
 
