@@ -69,7 +69,7 @@ php artisan make:middleware OnlineStatus
 **7**. **Define route**.Add the below code routes/web.php. 
 
 ```
-route::get('/login',[App\Http\Controllers\userController::class,'index']);
+route::get('/active-status',[App\Http\Controllers\userController::class,'index']);
 ``` 
 
 **8**. **Create a controller**. *To create controller type below command in your terminal*.
@@ -82,13 +82,14 @@ php artisan make:controller userController
 
 ```
 public function index(){
-$users = User::simplePaginate(8);
-return view('home',compact('users'));
+$users = User::all();
+return view('home1',compact('users'));
 }
 ``` 
+*Note: Create a blade file in resources/views and name it home1.blade.php.*
 
 
-**10. Go to home.blade.php**. *In resources/views/home.blade.php*. 
+**10. Go to home1.blade.php**. *In resources/views/home.blade.php*. 
 
 ```
   <table class="table">
@@ -113,8 +114,9 @@ return view('home',compact('users'));
                     </tbody>
                 </table>
 ``` 
-
-
+*Register users and keep login a user you will the name of the user who is online on your website.
+ 
+Now Open your browser and enter link in my case it /online-status.*
 
 
 
