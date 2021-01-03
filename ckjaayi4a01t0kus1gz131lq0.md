@@ -69,7 +69,7 @@ php artisan make:middleware OnlineStatus
 **7**. **Define route**.Add the below code routes/web.php. 
 
 ```
-route::get('/login','[App\Http\Controllers\userController::class, 'index']');
+route::get('/login',[App\Http\Controllers\userController::class,'index']);
 ``` 
 
 **8**. **Create a controller**. *To create controller type below command in your terminal*.
