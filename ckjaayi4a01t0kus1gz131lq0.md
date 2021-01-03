@@ -36,7 +36,7 @@ npm run dev
 php artisan make:middleware OnlineStatus
 ```
 
-**4**. **Add the below code in Middleware OnlineStatus**.
+**4**. **Add the below code in Middleware OnlineStatus** *in app/Http/Middleware/OnlineStatus*.
 
 ```
   public function handle(Request $request, Closure $next)
