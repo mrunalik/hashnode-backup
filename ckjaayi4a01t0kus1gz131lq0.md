@@ -116,7 +116,7 @@ return view('home1',compact('users'));
 ``` 
 *Register users and keep login a user you will the name of the user who is online on your website.
  
-Now Open your browser and enter link in my case it /online-status.*
+Now Open your browser and enter link in my case it /active-status.*
 
 
 
