@@ -58,7 +58,7 @@ php artisan make:middleware OnlineStatus
         ],
 ``` 
 
-**6**. **In User Model add the below function.**
+**6**. **In User Model add the below function** in *app/Models/User.php.*
 
 ```
  public function isOnline(){
