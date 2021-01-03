@@ -82,13 +82,13 @@ php artisan make:controller userController
 
 ```
 public function index(){
-$users = User::all()->simplePaginate(8);
+$users = User::simplePaginate(8);
 return view('home',compact('users'));
 }
 ``` 
 
 
-10. **Go to home.blade.php**. *In resources/views/home.blade.php*. 
+**10. Go to home.blade.php**. *In resources/views/home.blade.php*. 
 
 ```
   <table class="table">
