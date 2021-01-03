@@ -78,7 +78,7 @@ route::get('/login',[App\Http\Controllers\userController::class,'index']);
 php artisan make:controller userController
 ``` 
 
-**9**. **Add below code in UserController.**
+**9**. **Add below code in userController** in *app/Http/Controllers/userController.php.*
 
 ```
 public function index(){
