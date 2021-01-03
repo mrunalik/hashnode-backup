@@ -1,4 +1,4 @@
-## Send Welcome email to user on creating an account using gmail in Laravel.
+## Send Welcome email to users on creating an account using gmail in Laravel.
 
 **1) Set up laravel project using below command.**
 ```
