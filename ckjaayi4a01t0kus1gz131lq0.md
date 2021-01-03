@@ -82,7 +82,7 @@ php artisan make:controller userController
 
 ```
 public function index(){
-$users = User::where('role',0)->simplePaginate(8);
+$users = User::all()->simplePaginate(8);
 return view('home',compact('users'));
 }
 ``` 
