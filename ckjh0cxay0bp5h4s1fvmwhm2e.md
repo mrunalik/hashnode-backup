@@ -23,7 +23,7 @@ npm run dev
 *Create database and set database credentials in your .env file.*
 
 **2) Set the mail drivers.**  
-Go to .env file and set the credentials,* in the next blog I will tell you how to get app password from gmail.*
+Go to .env file and set the credentials,* Visit this link *https://mrunali.in/how-to-get-app-password-from-gmail-for-laravel-mailing* <- in this blog I have explained how to get the app password and gmail setting.*
 ```
 APP_NAME=SendMail
 ```
