@@ -1,4 +1,4 @@
-## Popup Modal Bottom, Top, Left or Right Modal
+## Modal Slide Up From Bottom - With CSS and JavaScript
 
 If my blogs help you in any way you can show your contribution. 
 Pay as you wish
