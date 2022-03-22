@@ -1,4 +1,4 @@
-## Popup Modal Bottom, Top, Left or Right
+## Popup Modal Bottom, Top, Left or Right Modal
 
 If my blogs help you in any way you can show your contribution. 
 Pay as you wish
