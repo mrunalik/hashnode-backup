@@ -3,9 +3,6 @@
 If my blogs help you in any way you can show your contribution. 
 Pay as you wish
 **https://rzp.io/l/dpvitnJCSP**
-
-![popup model botttom cover photo blog.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1647931831789/fJ_dvc_zX.jpg)
-In your file add a button from where you want to open the modal. I my case I am using as share option so that when user click on share button the modal will open from bottom.
 ```
 <button onclick="openNav()" class="btn btn-sm btn-outline-primary">Share</button>
 ```
